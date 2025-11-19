@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: bisque;
+}
+
+#main-div {
+    width: 500px;
+    height: 250px;
+}
+
+#options-div {
+    height: 135px;
+    width: 350px;
+}
+
+#question-div {
+    display: block;
+    height: 100px;
+}
+
+#next-button-div {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+#lower-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-button {
+    font-size: 25px;
+}
+
+/* FIX: Radio buttons were block-level — removed that */
+.o-s {
+    margin-right: 8px; 
+}
+
+/* Make radio + text stay aligned horizontally */
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label span {
+    margin-left: 6px;
+}
