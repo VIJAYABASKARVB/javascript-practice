@@ -1,0 +1,33 @@
+body {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+p{
+    display: block;
+}
+
+#color-button{
+    color: black;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 70px;
+    margin: 0px;
+}
+
+#color-button:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+#main-div{
+    text-align: center;
+    /* border-color: black;
+    border-style: solid; */
+}
